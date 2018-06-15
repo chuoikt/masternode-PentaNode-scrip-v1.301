@@ -77,19 +77,33 @@ systemctl is-enabled $PENTAUSER #To check PentaNoded service is enabled on boot
 
 **Wallet re-sync
 *If you need to resync the wallet, run the following commands as root:
+
 **PENTAUSER=pentanode  #replace pentanode with the MN username you want to resync
+
 systemctl stop $PENTAUSER
+
 Addnode this line to the file in /home/pentanode/.PentaNode/PentaNode.conf:
+
 addnode=139.99.98.127
+
 addnode=139.99.98.128
+
 addnode=139.99.98.129
+
 addnode=96.43.131.76
+
 addnode=95.79.43.111
+
 addnode=95.31.8.89
+
 addnode=95.31.244.93
+
 systemctl start $PENTAUSER
+
 wallet on VPS resync vs blockchain.
+
 If you have any problems please contact telegram or discord: nh9cvjetkt
+
 Donate if good:
 ETH: 0x11a985d42D6fa4CAC941943a63f362c3497FA0Fe
 BTC: 1EcpUdLTyeVuxNNePLjaxLuh88Rnphf959
