@@ -105,6 +105,9 @@ wallet on VPS resync vs blockchain.
 If you have any problems please contact telegram or discord: nh9cvjetkt
 
 Donate if good:
+
 ETH: 0x11a985d42D6fa4CAC941943a63f362c3497FA0Fe
+
 BTC: 1EcpUdLTyeVuxNNePLjaxLuh88Rnphf959
+
 PTN: PoEMmh9VvFitJJS8z1RSEpheuTDE5vTHZX
