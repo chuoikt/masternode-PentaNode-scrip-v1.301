@@ -1,0 +1,1 @@
+# masternode-PentaNode-scrip-v1.301
