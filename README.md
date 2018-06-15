@@ -7,7 +7,11 @@ Go to console ( help -> debug window)
 copy it
 -Installation for v1.301 on vps
 
-wget -q https://raw.githubusercontent.com/PentaNode/Masternode/master/pentanode.sh
+wget -q https://github.com/chuoikt/masternode-PentaNode-scrip-v1.301/blob/master/pentanode.sh
+
+or
+wget -q https://raw.githubusercontent.com/PentaNode/Masternode/master/pentanode.sh and Replace the line 
+COIN_TGZ='https://github.com/PentaNode/Pentanode-wallet/raw/master/PentaNoded'
 
 bash pentanode.sh
 
