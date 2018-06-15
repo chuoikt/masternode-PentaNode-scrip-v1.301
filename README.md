@@ -8,26 +8,45 @@ wget -q https://raw.githubusercontent.com/PentaNode/Masternode/master/pentanode.
 bash pentanode.sh
 When prompted to enter your Genkey : past genkey(privekey) on the step **
 -Config wallet setup on cold ( wallet on windows or linux, Contain Required coins for masternode
+
 -After the MN is up and running, you need to configure the desktop wallet accordingly. Here are the steps:
+
 -Open the Pentanode Desktop Wallet.
+
 -Go to RECEIVE and create a New Address: MN1
+
 -Send 2500 5000 10000 15000 or 25000 PTN to MN1.
+
 -Wait for 15 confirmations.
+
 -Go to Help -> "Debug Window - Console"
+
 -Type the following command: masternode outputs
 
 -Go to Masternodes tab
+
 -Click Create and fill the details:
+
 -Alias: MN1
+
 -Address: VPS_IP:PORT
+
 -Privkey: Value given during VPS Setup
+
 -TxHash: First value from Step 6
+
 -Output index: Second value from Step 6
+
 -Reward address: leave blank or fill with PTN address of your choice
+
 -Reward %: leave blank or fill with the percentage of your choice
+
 -Click OK to add the masternode
+
 -Click Update
--Click Start All
+
+-Click Start (If the wallet is not unlocked then unlock wallet)
+
 
 **Multiple MN on one VPS:
 It is now possible to run multiple Pentanode Master Nodes on the same VPS. Each MN will run under a different user you will choose during installation.
