@@ -1,12 +1,18 @@
 # masternode-PentaNode-scrip-v1.301
 Open the Pentanode Desktop Wallet.
+
 Go to console ( help -> debug window)
+
 **commands: masternode genkey (privekey**
 copy it
 -Installation for v1.301 on vps
+
 wget -q https://raw.githubusercontent.com/PentaNode/Masternode/master/pentanode.sh
+
 bash pentanode.sh
+
 When prompted to enter your Genkey : past genkey(privekey) on the step **
+
 -Config wallet setup on cold ( wallet on windows or linux, Contain Required coins for masternode
 
 -After the MN is up and running, you need to configure the desktop wallet accordingly. Here are the steps:
